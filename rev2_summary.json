@@ -1,0 +1,137 @@
+{
+  "drift": {
+    "C|adverse": {
+      "n": 40,
+      "usable": 40,
+      "conflict": 0.875,
+      "rho_med": 0.11731601731601732,
+      "risk_mingap": 0.07067139986287174,
+      "risk_minrisk": 0.04443804737464877
+    },
+    "C|favourable": {
+      "n": 40,
+      "usable": 0,
+      "conflict": null,
+      "rho_med": null,
+      "risk_mingap": 0.0,
+      "risk_minrisk": 0.0
+    },
+    "C|symmetric": {
+      "n": 40,
+      "usable": 40,
+      "conflict": 0.875,
+      "rho_med": 0.16504329004329005,
+      "risk_mingap": 0.01787118738214414,
+      "risk_minrisk": 0.006497264429614372
+    },
+    "D|adverse": {
+      "n": 40,
+      "usable": 40,
+      "conflict": 0.9,
+      "rho_med": -0.4464285714285715,
+      "risk_mingap": 0.2416780191659756,
+      "risk_minrisk": 0.2188636737144462
+    },
+    "D|favourable": {
+      "n": 40,
+      "usable": 40,
+      "conflict": 0.85,
+      "rho_med": 0.08571428571428573,
+      "risk_mingap": -0.07113894244949559,
+      "risk_minrisk": -0.07925010303264363
+    },
+    "D|symmetric": {
+      "n": 40,
+      "usable": 40,
+      "conflict": 0.9,
+      "rho_med": -0.13333333333333333,
+      "risk_mingap": 0.07001231960774815,
+      "risk_minrisk": 0.04143125047979804
+    }
+  },
+  "baselines": {
+    "C|SAA": {
+      "n": 40,
+      "gap_med": 0.011359754266539034,
+      "risk_med": 0.08239473532045152,
+      "risk_mean": 0.08139494994697112
+    },
+    "C|nominal-opt": {
+      "n": 40,
+      "gap_med": 0.0,
+      "risk_med": 0.07032143229639087,
+      "risk_mean": 0.06978184440000008
+    },
+    "C|robust-G2.2": {
+      "n": 40,
+      "gap_med": 0.029473057777470252,
+      "risk_med": 0.05194522843656586,
+      "risk_mean": 0.05247156837246385
+    },
+    "C|robust-G4.4": {
+      "n": 40,
+      "gap_med": 0.053540677821903526,
+      "risk_med": 0.03121599644821149,
+      "risk_mean": 0.031134669605902852
+    },
+    "D|hedge-q50": {
+      "n": 40,
+      "gap_med": 0.03782398743265942,
+      "risk_med": 0.16730696341210738,
+      "risk_mean": 0.17679606864151104
+    },
+    "D|hedge-q75": {
+      "n": 40,
+      "gap_med": 0.05673598114898901,
+      "risk_med": 0.13843450215030956,
+      "risk_mean": 0.15194391577358118
+    },
+    "D|hedge-q90": {
+      "n": 40,
+      "gap_med": 0.06716246343268673,
+      "risk_med": 0.12410831837345854,
+      "risk_mean": 0.13915409575806198
+    },
+    "D|hedge-q95": {
+      "n": 40,
+      "gap_med": 0.07044696150948657,
+      "risk_med": 0.11932094631393361,
+      "risk_mean": 0.13524376525072118
+    },
+    "D|nominal-opt": {
+      "n": 40,
+      "gap_med": 0.0,
+      "risk_med": 0.24099125530158794,
+      "risk_mean": 0.2387081237733292
+    }
+  },
+  "books": {
+    "adverse": {
+      "books": 20,
+      "conflict": 1.0,
+      "rho_med": 0.5000000000000001,
+      "risk_mingap": 0.1980501176088118,
+      "risk_minrisk": 0.18679209540399078,
+      "gap_mingap": 0.00013239546719777368,
+      "gap_minrisk": 0.0013052303913788166
+    },
+    "favourable": {
+      "books": 20,
+      "conflict": 1.0,
+      "rho_med": -0.5000000000000001,
+      "risk_mingap": -0.004464914637159156,
+      "risk_minrisk": -0.00482126552283596,
+      "gap_mingap": 0.00013239546719777368,
+      "gap_minrisk": 0.0008608963074498515
+    },
+    "symmetric": {
+      "books": 20,
+      "conflict": 0.8,
+      "rho_med": 0.5000000000000001,
+      "risk_mingap": 0.04979124390403762,
+      "risk_minrisk": 0.04846653448541363,
+      "gap_mingap": 0.00013239546719777368,
+      "gap_minrisk": 0.000756792515978276
+    }
+  }
+}

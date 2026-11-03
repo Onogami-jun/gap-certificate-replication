@@ -1,0 +1,5 @@
+family,pool,n,cv_median
+C,LLM,24,0.3070952169382898
+C,heuristic,40,0.027917093336755
+D,LLM,39,0.2098397607832194
+D,heuristic,40,0.0
